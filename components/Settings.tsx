@@ -315,10 +315,10 @@ function doGet(e) {
                              </button>
                          </div>
                          <p className="text-xs text-slate-500 mb-3">
-                             1. เปิด Google Sheet ใหม่ > Extensions > Apps Script<br/>
+                             1. เปิด Google Sheet ใหม่ &gt; Extensions &gt; Apps Script<br/>
                              2. ลบโค้ดเก่าทิ้ง แล้ววางโค้ดด้านล่างนี้ลงไป<br/>
-                             3. กด Deploy > New Deployment > Select type: Web App<br/>
-                             4. ตั้งค่า <b>Who has access: Anyone</b> > กด Deploy<br/>
+                             3. กด Deploy &gt; New Deployment &gt; Select type: Web App<br/>
+                             4. ตั้งค่า <b>Who has access: Anyone</b> &gt; กด Deploy<br/>
                              5. คัดลอก Web App URL มาใส่ในช่องด้านซ้าย
                          </p>
                          <div className="bg-slate-800 text-slate-200 p-3 rounded-lg text-[10px] font-mono h-40 overflow-y-auto">
