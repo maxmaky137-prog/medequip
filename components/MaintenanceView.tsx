@@ -5,6 +5,14 @@ import { DataService } from '../services/dataService';
 import { Wrench, Clock, CheckCircle2, AlertOctagon, X, FileText, Bell, ClipboardList, Coins, TrendingUp, Bot, Send, Printer, FileSpreadsheet } from 'lucide-react';
 import { GoogleGenAI } from "@google/genai";
 
+// Declare process manually to prevent build errors in environments where node types are missing
+declare var process: {
+  env: {
+    API_KEY: string;
+    [key: string]: any;
+  }
+};
+
 interface MaintenanceViewProps {
     currentUser: User | null;
 }
